@@ -1,0 +1,44 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+body{
+    background-color: rgb(48, 14, 80);
+    color: white;
+    font-family: sans-serif,poppins;
+}
+
+header{
+    background-color: rgba(255, 228, 196, 0.526);
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h1{
+    color: rgb(48, 14, 80);
+    letter-spacing: 1.5px;
+}
+
+
+.nav-right-section ul li a{
+    color: white;
+    text-decoration: none;
+    transition: linear 0.4s;
+}
+ul li{
+    list-style: none;
+    padding: 15px;
+}
+ul li a:hover{
+    color:rgb(48, 14, 80) ;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
