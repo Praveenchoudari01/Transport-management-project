@@ -4,7 +4,11 @@
 }
 
 body{
-    background-color: rgb(48, 14, 80);
+    background-image: url(assests/delivery-truck.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
     color: white;
     font-family: sans-serif,poppins;
 }
@@ -21,13 +25,15 @@ nav{
 }
 
 nav h1{
+    font-size: 30px;
     color: rgb(48, 14, 80);
     letter-spacing: 1.5px;
 }
 
 
 .nav-right-section ul li a{
-    color: white;
+    font-size: 18px;
+    color:rgb(48, 14, 80) ;
     text-decoration: none;
     transition: linear 0.4s;
 }
@@ -36,7 +42,7 @@ ul li{
     padding: 15px;
 }
 ul li a:hover{
-    color:rgb(48, 14, 80) ;
+    color:rgb(18, 118, 240) ;
 }
 ul{
     display: flex;
