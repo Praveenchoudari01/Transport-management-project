@@ -1,21 +1,24 @@
 *{
     margin: auto;
     padding: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body{
-    background-image: url(assests/delivery-truck.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: lighten;
+    background-color: #87CEFA;
     color: white;
     font-family: sans-serif,poppins;
+    height: 2000px;
 }
 
+
 header{
-    background-color: rgba(255, 228, 196, 0.526);
+    background-color: rgb(99, 121, 218);
     padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 nav{
@@ -28,6 +31,7 @@ nav h1{
     font-size: 30px;
     color: rgb(48, 14, 80);
     letter-spacing: 1.5px;
+    cursor:default;
 }
 
 
@@ -42,9 +46,62 @@ ul li{
     padding: 15px;
 }
 ul li a:hover{
-    color:rgb(18, 118, 240) ;
+    color:rgb(18, 240, 229) ;
 }
 ul{
     display: flex;
     justify-content: space-between;
+}
+
+#Home{
+    /* background-color: rgba(0, 0, 0, 0.37); */
+    height: 600px;
+    padding-top: 10rem;
+    z-index: -1;   
+}
+.home-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-left-section h1{
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    font-size: 35px;
+    color:blueviolet;
+    text-shadow: black;
+    cursor: default;
+    text-shadow: 1px 1px 10px rgb(255, 255, 255),
+    1px 1px 10px rgb(209, 175, 175),
+    1px 1px 10px rgb(255, 255, 255),
+    1px 1px 10px rgb(255, 255, 255);
+}
+
+.home-left-section p{
+    
+}
+.img1{
+    width: 25rem;
+    height: 24rem;
+    border-radius: 50%;
+    box-shadow: 1px 10px 20px 20px rgb(67, 65, 65);
+}
+
+.img2{
+    width: 5rem;
+    height: 5rem;
+    padding-left: 5rem;
+    animation: delivery-boy 15s infinite;
+}
+
+@keyframes delivery-boy{
+    from{padding-left: 0rem;}
+    to{padding-left: 50rem;}
+}
+
+#road{
+    width: 50px;
+    height: 15px;
+    color: black;
 }
