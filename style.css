@@ -41,14 +41,14 @@ nav h1{
     text-decoration: none;
     transition: linear 0.4s;
 }
-ul li{
+.navbar-alignment li{
     list-style: none;
     padding: 15px;
 }
-ul li a:hover{
+.navbar-alignment li a:hover{
     color:rgb(18, 240, 229) ;
 }
-ul{
+.navbar-alignment{
     display: flex;
     justify-content: space-between;
 }
@@ -79,7 +79,12 @@ ul{
 }
 
 .home-left-section p{
-    
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+    color: black;
+    padding: 5px 35px;
+    cursor: default;
 }
 .img1{
     width: 25rem;
@@ -89,6 +94,7 @@ ul{
 }
 
 .img2{
+    position: relative;
     width: 5rem;
     height: 5rem;
     padding-left: 5rem;
@@ -101,7 +107,14 @@ ul{
 }
 
 #road{
-    width: 50px;
-    height: 15px;
-    color: black;
+    margin-right: 34.5rem;
+    width: 54.5rem;
+    height: 3px;
+    background-color: black;
+}
+
+#Services{
+    padding-top: 15rem;
+    background-color: black;
+    height: 360px;
 }
